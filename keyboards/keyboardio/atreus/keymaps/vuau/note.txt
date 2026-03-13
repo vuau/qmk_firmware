@@ -1,0 +1,1 @@
+I recently ran into this weird error as well. Learned on discord that a qmk clean -a should do (and did) the trick. My error was "<keyboard>.h is only optional for data driven keyboards.

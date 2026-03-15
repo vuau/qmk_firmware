@@ -31,10 +31,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [4] = LAYOUT_split_3x6_3(
         KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,                    KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,
-        KC_NO,          KC_LCTL,        KC_LALT,        KC_LGUI,        KC_LSFT,        KC_NO,                    KC_MS_LEFT,     KC_MS_DOWN,     KC_MS_UP,       KC_MS_RIGHT,    KC_MS_ACCEL0,   KC_NO,
-        KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,                    KC_MS_WH_LEFT,  KC_MS_WH_DOWN,  KC_MS_WH_UP,    KC_MS_WH_RIGHT, KC_MS_ACCEL1,   KC_NO,
+        KC_NO,          KC_LCTL,        KC_LALT,        KC_LGUI,        KC_LSFT,        KC_NO,                    MS_LEFT,        MS_DOWN,        MS_UP,          MS_RGHT,        MS_ACL0,        KC_NO,
+        KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,                    MS_WHLL,        MS_WHLD,        MS_WHLU,        MS_WHLR,        MS_ACL1,        KC_NO,
 
-        KC_NO,          KC_NO,          KC_NO,                                                                    KC_MS_BTN3,     KC_MS_BTN1,     KC_MS_BTN2
+        KC_NO,          KC_NO,          KC_NO,                                                                    MS_BTN3,        MS_BTN1,        MS_BTN2
     ),
     [5] = LAYOUT_split_3x6_3(
         KC_NO,          KC_NO,          KC_F7,          KC_F8,          KC_F9,          KC_F10,                   KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,
